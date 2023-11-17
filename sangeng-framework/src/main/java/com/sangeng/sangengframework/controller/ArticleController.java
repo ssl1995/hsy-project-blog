@@ -16,6 +16,8 @@ public class ArticleController {
     private ArticleService articleService;
     @GetMapping("/list")
     public void test(){
+        int a =1;
+        System.out.println(a);
         articleService.list();
     }
 }

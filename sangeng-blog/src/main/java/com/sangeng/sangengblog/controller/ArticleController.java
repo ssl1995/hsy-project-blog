@@ -19,8 +19,8 @@ public class ArticleController {
     private ArticleService articleService;
 
 
-    @GetMapping("/list")
-    public List<Article> test(){
-        return articleService.list();
-    }
+//    @GetMapping("/list")
+//    public List<Article> test(){
+//        return articleService.list();
+//    }
 }
