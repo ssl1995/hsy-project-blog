@@ -6,13 +6,22 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.4.5</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
+
     <groupId>com.sangeng</groupId>
     <artifactId>sgBlog</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>sgBlog</name>
     <description>sgBlog</description>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>sangeng-blog</module>
+        <module>sangeng-framework</module>
+        <module>sangengadmin</module>
+    </modules>
+
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -99,6 +108,7 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.9.2</version>
         </dependency>
+
     </dependencies>
 
     <build>

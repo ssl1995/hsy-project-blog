@@ -17,6 +17,8 @@ import java.util.List;
 public class ArticleController {
     @Autowired
     private ArticleService articleService;
+
+
     @GetMapping("/list")
     public List<Article> test(){
         return articleService.list();
